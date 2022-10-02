@@ -21,6 +21,18 @@ wget https://get.vpnsetup.net/wg -O wireguard.sh
 sudo bash wireguard.sh --auto
 ```
 
+<details>
+<summary>
+List of default options.
+</summary>
+
+```
+Port: UDP/51820
+Client name: client
+Client DNS: Google Public DNS
+```
+</details>
+
 **Option 2:** Interactive install using custom options.
 
 ```bash
@@ -60,7 +72,9 @@ If you are unable to download, open [wireguard-install.sh](wireguard-install.sh)
 
 After setup, you can run the script again to manage users or uninstall WireGuard.
 
-[WireGuard VPN clients](https://www.wireguard.com/install/) are available for Windows, macOS, iOS and Android. To add a VPN connection, open the WireGuard App on your mobile device, tap the "Add" button, then scan the generated QR code in the script output. For Windows and macOS, first securely transfer the generated `.conf` file to your computer, then open WireGuard and import the file.
+Get your computer or device to use the VPN. Please refer to:
+
+**[Configure WireGuard VPN Clients](docs/clients.md)**
 
 Enjoy your very own VPN! :sparkles::tada::rocket::sparkles:
 
