@@ -182,7 +182,6 @@ EOF
 	# Create client configuration
 	cat << EOF > "$export_dir$client".conf
 [Interface]
-MTU = 1380
 Address = 10.7.5.$octet/24$(grep -q 'fddd:2c4:2c4:2c4::1' /etc/wireguard/wg0.conf && echo ", fddd:2c4:2c4:2c4::$octet/64")
 DNS = $dns
 PrivateKey = $key
@@ -557,7 +556,6 @@ if [[ ! -e /etc/wireguard/wg0.conf ]]; then
 Address = 10.7.5.1/24$([[ -n "$ip6" ]] && echo ", fddd:2c4:2c4:2c4::1/64")
 PrivateKey = $(wg genkey)
 ListenPort = $port
-MTU = 1380
 
 EOF
 	chmod 600 /etc/wireguard/wg0.conf
