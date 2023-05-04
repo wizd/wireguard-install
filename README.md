@@ -31,6 +31,7 @@ Port: UDP/51820
 Client name: client
 Client DNS: Google Public DNS
 ```
+
 </details>
 
 **Option 2:** Interactive install using custom options.
@@ -64,6 +65,7 @@ https://gitlab.com/hwdsl2/wireguard-install/-/raw/master/wireguard-install.sh
 ```
 
 If you are unable to download, open [wireguard-install.sh](wireguard-install.sh), then click the `Raw` button on the right. Press `Ctrl/Cmd+A` to select all, `Ctrl/Cmd+C` to copy, then paste into your favorite editor.
+
 </details>
 
 \* A cloud server, virtual private server (VPS) or dedicated server.
@@ -86,6 +88,7 @@ Like this project? You can show your support or appreciation.
 <a href="https://ko-fi.com/hwdsl2" target="_blank"><img height="36" width="187" src="docs/images/kofi2.png" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a> &nbsp;&nbsp;<a href="https://coindrop.to/hwdsl2" target="_blank"><img src="docs/images/embed-button.png" height="36" width="145" border="0" alt="Coindrop.to me" /></a>
 
 Supporter-only content is available. [Click to see details](https://ko-fi.com/hwdsl2).
+
 </details>
 
 ## Credits
@@ -106,6 +109,7 @@ List of enhancements over Nyr/wireguard-install.
 - Improved creation of client config files when using `sudo`
 
 ...and more!
+
 </details>
 
 ## License
